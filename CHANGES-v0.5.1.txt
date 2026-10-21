@@ -1,0 +1,15 @@
+SDR Studio RX by M@rcello v0.5.1 — VFO- en audiofix
+
+- VFO A/B omschakelen gebruikt nu één atomaire tuneropdracht (freq/mode/BW/SQL).
+- Bij retune-fout blijft het ontvangstproces lopen; de vorige VFO wordt in de GUI hersteld.
+- Geen onnodig opnieuw afstemmen als VFO A en B dezelfde frequentie hebben.
+- Na retune wordt oude gebufferde audio weggehaald en het geluid gedurende 100 ms ingefaded.
+- WFM gebruikt weer de beproefde standaardrespons uit v0.4.2 (100 kHz IF, 129 taps).
+- AM/NFM/SSB audiolowpass en AGC-startwaarde herstellen de bewezen v0.4.2-klank,
+  terwijl een smaller gebruikerskanaalfilter actief blijft.
+- Spectrum-update op 10 MSPS langzamer voor lagere GUI-belasting; RF FFT blijft 8192.
+- Bij Airspy-wachtrij-overloop verschijnt eenmalig advies: 2,5 MSPS.
+- Scanner stopt bij handmatig VFO-wisselen; de overige hardwarecode is ongewijzigd.
+
+N.B.: 10 MSPS kan op een pc te zwaar zijn; 'USB drops=0' en stijgende wachtrij-drops
+betekent CPU-/verwerkingsachterstand, geen ontbrekende USB-pakketten.

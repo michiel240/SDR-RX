@@ -1,0 +1,9 @@
+SDR Studio RX by M@rcello v0.8 beta — DIGITAL AUTO
+
+- Passieve, CPU-begrensde meerkanaals FFT-kandidaatmonitor in tab Decoders.
+- Herhaalde RF-observaties en drempel boven mediane ruisvloer; onderdrukking DC-spikes.
+- Dubbelklik op kandidaat om af te stemmen; knop om te controleren met extern DSD-neo.
+- Start scanner + monitor vanuit hetzelfde tabblad, zonder extra USB-sessie.
+- Apart overzicht van RF-kandidaten (onbekend) en bevestigde decoder-berichten; CSV export.
+- Geen automatische protocolidentificatie zonder DSD-neo; geen meegeleverde binaries.
+- Bestaande Airspy, RTL-SDR en audio modules onveranderd.

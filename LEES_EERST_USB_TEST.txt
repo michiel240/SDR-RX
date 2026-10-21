@@ -1,0 +1,17 @@
+SDRStudio RX v0.2.3 — zo test je de ontvangers
+
+1. Pak deze hele ZIP uit in een NIEUWE map.
+2. Start START_HIER_v0.2.3.bat.
+3. Sluit alle andere SDR-programma's.
+4. Voer test_hardware_windows.bat uit.
+
+RTL-SDR: Een USB-fout (LIBUSB_ERROR_IO) is geen Python-installatiefout.
+Controleer USB-poort en Windows WinUSB-driver van alleen RTL2832U interface 0.
+
+Airspy R2: Voeg zelf officiële x64 libairspy.dll en zijn x64 afhankelijkheden toe
+in drivers naast de starter:
+https://github.com/airspy/airspyone_host/releases
+
+Geen DLL's downloaden van willekeurige DLL-sites.
+
+Beide ontvangers zijn afzonderlijk te testen, niet tegelijkertijd in v0.2.3.

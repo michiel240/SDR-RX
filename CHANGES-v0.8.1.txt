@@ -1,0 +1,9 @@
+SDR Studio RX by M@rcello v0.8.1 BETA - Geheugengroepen
+
+- Nieuwe groepen aanmaken zonder al kanalen te hebben (bijv. Beek).
+- Groepen hernoemen en verwijderen met bevestiging (kanalen blijven bewaard in Algemeen).
+- Kanalen toevoegen en bewerken: groep, frequentie, mode, opmerkingen, favoriet en F1-F8.
+- Groepen blijven bewaard in %%USERPROFILE%%\SDRStudio-RX\groups.json.
+- Oude geheugens blijven onder hun bestaande groep of Algemeen.
+- Geheugen-scanner filtert op de geselecteerde groep.
+- DIGITAL AUTO, RTL-SDR, Airspy R2, dubbel VFO en bestaande DSP onveranderd.

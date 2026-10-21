@@ -1,0 +1,9 @@
+# Minimal dependencies for the Windows SLIM portable build.
+# Only Qt Essentials: the complete PySide6 meta-package also pulls in
+# heavyweight optional Addons/WebEngine/Pdf wheels.
+numpy>=1.26
+scipy>=1.11
+PySide6_Essentials>=6.6,<7
+pyqtgraph>=0.13
+sounddevice>=0.4.6
+pyrtlsdr[lib]>=0.3.0

@@ -1,0 +1,10 @@
+SDR Studio RX by M@rcello v0.4
+
+- De analoge SDR-behuizing, hardware- en audiosources uit v0.3.2 blijven behouden.
+- Nieuwe live IQ/PCM-stdin-brug naar rtl_433, AIS-catcher, dump1090 en Dire Wolf.
+- Experimentele DSD-neo audio-in/spraak-uit voor auto en meerdere voice protocollen.
+- Catalogus uitgebreid tot 28 modes/profielen; externe runtimes zijn niet ingebouwd.
+- Gedecodeerde berichtenweergave, CSV-export, frequentiepresets, selecteer executable.
+- Extra tests voor sample-conversie, event parser en onafhankelijk mock-decoderproces.
+
+LET OP: dit is een ontwikkelversie. Installeer zelf de tools en test op Windows.

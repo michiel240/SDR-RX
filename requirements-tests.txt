@@ -1,0 +1,4 @@
+# Dependencies for unit tests; USB hardware and GUI are not required.
+numpy>=1.26
+scipy>=1.11
+pytest>=8

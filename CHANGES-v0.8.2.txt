@@ -1,0 +1,12 @@
+SDR Studio RX by M@rcello v0.8.2 BETA - selectieve groepsscanner
+
+- Scangroep kiezen op het Scan-tabblad; gekoppeld met Geheugens.
+- Kanalen per groep aanvinken voor scan, bijvoorbeeld 10 uit 20.
+- In selectievenster: Kies eerste N, Alles, Geen, handmatige selectie.
+- Geselecteerd/totaal zichtbaar bij scanner; SCAN UIT zichtbaar in geheugenlijst.
+- Scanvlag wordt per kanaal opgeslagen in bestaande memories.json.
+- Oude geheugenkanalen standaard ingeschakeld; geen datamigratie nodig.
+- Scanner accepteert geen lege selectie, verandert andere groepen niet.
+- Hernoemen/wissen van groep stopt lopende scan veilig voor de groepswissel.
+- RTL-SDR-, Airspy-, DSP-, audio- en decoderbroncode niet gewijzigd.
+- 140 softwaretests geslaagd; Windows GUI en fysieke SDR nog niet getest.

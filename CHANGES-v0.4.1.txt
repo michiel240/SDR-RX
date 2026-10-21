@@ -1,0 +1,8 @@
+SDR Studio RX by M@rcello v0.4.1
+- Groter, duidelijk frequentieveld in de bovenbalk.
+- STEP-selectie direct ernaast met 11 presets (incl. 8.33 kHz).
+- +/- stapknoppen, muiswiel, pijl omhoog/omlaag, Ctrl+links/rechts.
+- Direct frequenties typen en bevestigen met Enter.
+- STEP onthouden tussen sessies.
+- Exacte Hz-stepping met driftvrije 8.33 kHz-afronding.
+- Bestaande RTL-SDR, Airspy R2, DSP en decoderbronnen behouden.

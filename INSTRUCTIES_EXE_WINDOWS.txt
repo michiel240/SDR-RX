@@ -1,0 +1,31 @@
+SDR Studio RX by M@rcello - Windows EXE maken
+================================================
+
+1. Open https://github.com/Masko68/SDR-RX
+2. Klik Code > Download ZIP en pak ALLES uit.
+3. Open de uitgepakte map waar sdr_studio en requirements.txt staan.
+4. Start START_HIER_v0.8.2.bat een keer. Sluit SDR Studio RX daarna.
+   Daarmee wordt de Windows Python-omgeving .venv aangemaakt.
+5. Kopieer BOUW_EXE_WINDOWS.bat naar deze map, naast START_HIER_v0.8.2.bat.
+6. Dubbelklik BOUW_EXE_WINDOWS.bat.
+   Internet is nodig om PyInstaller en testpakketten te installeren.
+7. Als alle tests slagen, wordt een test-EXE gebouwd in:
+
+   dist\SDR-Studio-RX\SDR-Studio-RX.exe
+
+8. Dubbelklik die EXE, test eerst Demo (geen hardware), daarna RTL-SDR
+   en Airspy R2. Kopieer voor Airspy zo nodig de eigen werkende 64-bit
+   libairspy.dll en bijbehorende DLLs naar dist\SDR-Studio-RX\drivers.
+9. Houd de VOLLEDIGE map dist\SDR-Studio-RX bij elkaar. De EXE alleen is
+   NIET voldoende; alle andere bestanden in de map zijn nodig.
+
+De eerste test-EXE toont bewust ook een consolevenster. Dat helpt om
+foutmeldingen bij de eerste hardwaretests te lezen.
+
+BELANGRIJK:
+- Bouwen op Windows (64-bit), niet alleen vanuit de GitHub-testpagina.
+- Hardwaredrivers en decoders zijn niet automatisch ingebouwd.
+- Het script en de build zijn hier statisch gecontroleerd, maar nog NIET
+  op jouw Windows-pc uitgevoerd. Echte ontvangst blijft apart te testen.
+- Publiceer geen eigen DLLs of persoonlijke instellingen zonder te controleren
+  of je de bestanden mag verspreiden.

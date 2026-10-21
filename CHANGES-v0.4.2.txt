@@ -1,0 +1,6 @@
+SDR Studio RX by M@rcello v0.4.2 — reparatie frequentie-invoer
+
+- Voorkomt leeg MHz-vak bovenaan terwijl de VFO daaronder wel een frequentie toont.
+- Vervangt de interne QDoubleSpinBox-editor door QLineEdit met integer-Hz model.
+- Herstelt lege/onvolledige invoer na Enter of focusverlies.
+- STEP en ontvangst onveranderd; beide hardwarebackends en DSP zijn identiek aan v0.4.1.

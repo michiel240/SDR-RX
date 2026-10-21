@@ -1,0 +1,14 @@
+SDR Studio RX by M@rcello v0.6 beta
+
+* Passband shift (-100 .. +100 kHz), ook zichtbaar als sleepbare zone.
+* Driebands EQ (180 Hz, 1 kHz, 5,5 kHz; ±12 dB).
+* RF piekgeheugen. Optionele S/dBm-schatting alleen met referentie.
+* Waterfall snelheid (1x/2x/4x), kleuren, dBFS niveaus.
+* FFT 2048/4096/8192/16384 punten.
+* Geheugenbanken per groep, F1-F8 presets, groepsfilter scanner.
+* Asynchrone IQ-opnames (CF32LE + JSON) en offline analoge replay.
+* Hardwaremodules van de bij gebruiker werkende v0.5.1 ongewijzigd.
+
+Nog NIET gerealiseerd: gelijktijdige A/B-stereoaudio, volwaardige RDS,
+automatische digitale protocoldetectie en offline digitale decoderreplay.
+Deze beta is op synthetische data getest maar niet op Windows-hardware.

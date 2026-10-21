@@ -1,0 +1,1 @@
+v0.7 beta: dubbele stereo-VFO ontvangst; optionele redsea RDS-koppeling; indicatieve RF-signaalclassificatie; decoderstatus. 118 softwaretests geslaagd; hardwaretesten nog nodig.

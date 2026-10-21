@@ -1,0 +1,14 @@
+SDR Studio RX by M@rcello v0.5 — ontwikkelversie
+
+- Nieuw: twee onafhankelijke VFO-profielen A/B, wissel en kopieer, bewaart toestand.
+- Nieuw: blauwe doorzichtige filterband in spectrum, versleepbaar met actuele BW-label.
+- Nieuw: aanpasbare FIR-demodulatorbandbreedte, per mode begrensd.
+- Nieuw: 8192 FFT-punten, 1x–128x zoom, behoud zoom tijdens nieuwe frames.
+- Nieuw: audio-AGC aan/uit, instelbare notch, experimentele ruisonderdrukking.
+- Nieuw: geheugen- of bereikscanner met configureerbaar dwell en hold.
+- Nieuw: AIS MMSI/type en ADS-B ICAO/callsign metadata uit externe decoder-frames.
+- Nieuw: decoderzoeken, CSV/JSON-export en berichtenteller.
+- Bestaande RTL-SDR/Airspy en audio backend ongemoeid.
+- BELANGRIJK: v0.5 is niet op fysieke USB-hardware/Windows-GUI geverifieerd.
+- Dubbel VFO betekent wisselen tussen A en B, GEEN twee gelijktijdige ontvangsten.
+- Derden-decoderexes en Airspy DLL worden niet meegeleverd.

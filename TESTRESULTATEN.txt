@@ -1,0 +1,1 @@
+140 software tests passed. 9 new group-scan tests. Qt UI AST/compile validation only; Windows hardware validation pending.
