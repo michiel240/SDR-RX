@@ -1,0 +1,2 @@
+Zet hier de officiële x64 libairspy.dll en de bijbehorende x64 DLL-afhankelijkheden uit https://github.com/airspy/airspyone_host/releases/tag/v1.0.10.
+Geen DLL gedownload of meegeleverd.

@@ -1,0 +1,3 @@
+Plaats hier de officiële x64 libairspy.dll en de x64 afhankelijkheden uit
+https://github.com/airspy/airspyone_host/releases
+Binaries worden niet met SDRStudio RX meegeleverd.

@@ -1,0 +1,13 @@
+Zet hier, indien beschikbaar, je eigen Windows x64 decoderprogramma's:
+- rtl_433.exe         voor draadloze ISM-sensoren
+- AIS-catcher.exe     voor AIS-schepen
+- dump1090.exe        voor ADS-B Mode S 1090 MHz
+- direwolf.exe        voor APRS/AX.25
+- dsd-neo.exe         voor digitale spraakmodi (experimenteel)
+
+Afzonderlijk meegeleverde DLL-afhankelijkheden dienen bij het exe-bestand te staan.
+Geen binaire decoders zijn opgenomen in deze ZIP; download ze via de upstream websites.
+Een bestandsnaam in deze map betekent NIET dat de decoder daadwerkelijk functioneert.
+
+Let op: decoders gebruiken van zichzelf mogelijk externe netwerkverbindingen.
+Configureer geen openbare luisterpoorten zonder eigen beoordeling.
